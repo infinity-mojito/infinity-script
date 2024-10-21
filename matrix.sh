@@ -17,7 +17,7 @@ git clone https://github.com/matrix-mojito/android_device_xiaomi_sm6150-common.g
 git clone https://github.com/bliss-mojito/kernel_xiaomi_mojito.git --depth 1 -b inline-rom kernel/xiaomi/mojito
 
 # cloning vendor tree
-git clone htps://gitlab.com/bliss-mojito/android_vendor_xiaomi_mojito.git --depth 1 -b 14 vendor/xiaomi/mojito
+git clone https://gitlab.com/bliss-mojito/android_vendor_xiaomi_mojito.git --depth 1 -b 14 vendor/xiaomi/mojito
 git clone https://gitlab.com/bliss-mojito/android_vendor_xiaomi_sm6150-common.git --depth 1 -b 14 vendor/xiaomi/sm6150-common
 
 # cloning hardware tree
