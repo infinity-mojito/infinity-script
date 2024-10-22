@@ -26,6 +26,9 @@ git clone https://gitlab.com/bliss-mojito/android_vendor_xiaomi_sm6150-common.gi
 # cloning hardware tree
 git clone https://github.com/bliss-mojito/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
 
+#cloning private keys
+git clone https://github.com/sunny-keys/vendor_lineage-priv_keys-matrixOS.git --depth 1 -b master vendor/lineage-priv/keys
+
 # Set up the build environment
 . build/envsetup.sh
 
