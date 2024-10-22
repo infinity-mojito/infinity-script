@@ -9,6 +9,9 @@ repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
 # Sync the rpo with force to ensure a clean sync
 # /opt/crave/resync.sh
 
+# remove 
+rm -rf packages/apps/GameSpace
+
 # cloning device tree
 git clone https://github.com/matrix-mojito/device_xiaomi_mojito.git --depth 1 -b mojito-universe device/xiaomi/mojito
 git clone https://github.com/matrix-mojito/android_device_xiaomi_sm6150-common.git --depth 1 -b mojito-universe device/xiaomi/sm6150-common
