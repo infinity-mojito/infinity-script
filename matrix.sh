@@ -29,6 +29,9 @@ git clone https://github.com/bliss-mojito/android_hardware_xiaomi.git --depth 1 
 #cloning private keys
 git clone https://github.com/sunny-keys/vendor_lineage-priv_keys-matrixOS.git --depth 1 -b master vendor/lineage-priv/keys
 
+# add source file
+git clone https://github.com/ProjectMatrixx/android_packages_apps_GameSpace.git --depth 1 -b 14.0 packages/apps/GameSpace
+
 # Set up the build environment
 . build/envsetup.sh
 
