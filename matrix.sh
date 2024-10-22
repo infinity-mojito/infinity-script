@@ -7,7 +7,7 @@ rm -rf .repo/local_manifests/
 repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
 
 # Sync the rpo with force to ensure a clean sync
-# /opt/crave/resync.sh
+/opt/crave/resync.sh
 
 # remove 
 rm -rf packages/apps/GameSpace
