@@ -36,7 +36,7 @@ git clone https://github.com/ProjectMatrixx/android_packages_apps_GameSpace.git 
 . build/envsetup.sh
 
 # Choose the target device
-brunch mojito
+lunch infinity_mojito-user
 
 # Build the ROM (use mka bacon for a full build)
-# mka bacon
+mka bacon
