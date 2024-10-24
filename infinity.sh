@@ -4,7 +4,7 @@
 rm -rf .repo/local_manifests/
 
 # Initialize ROM manifest
-repo init -u https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
+repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b QPR3 -g default,-mips,-darwin,-notdefault
 
 # Sync the rpo with force to ensure a clean sync
 /opt/crave/resync.sh
