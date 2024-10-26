@@ -2,7 +2,7 @@
 
 # Remove the local manifests directory if it exists (cleanup before repo initialization)
 rm -rf .repo/local_manifests/
-
+rm -rf device/xiaomi/sm6150-common
 # Initialize ROM manifest
 repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b QPR3 -g default,-mips,-darwin,-notdefault
 
