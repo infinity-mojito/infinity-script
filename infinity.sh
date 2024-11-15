@@ -43,7 +43,7 @@ git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git 
 . build/envsetup.sh
 
 # Choose the target device
-lunch everest_mojito-ap3a-userdebug
+lunch infinity_mojito-user
 
 # Build the ROM (use mka bacon for a full build)
-mka everest -j$(nproc --all)
+mka bacon
