@@ -20,7 +20,7 @@ repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/man
 # rm -rf frameworks/native
 
 # cloning device tree
-git clone https://github.com/K4LCHAKRA/android_device_xiaomi_mojito.git --depth 1 -b 15 device/xiaomi/mojito
+git clone https://github.com/infinity-mojito/android_device_xiaomi_mojito.git --depth 1 -b 15 device/xiaomi/mojito
 git clone https://github.com/infinity-mojito/android_device_xiaomi_sm6150-common.git --depth 1 -b 15 device/xiaomi/sm6150-common
 
 # cloning kernel tree
