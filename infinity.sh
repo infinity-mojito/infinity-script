@@ -34,7 +34,7 @@ git clone https://gitlab.com/bliss-mojito/android_vendor_xiaomi_sm6150-common.gi
 git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
 
 # add missing source
-git clone https://github.com/ProjectInfinity-X/hardware_infinity_interfaces.git --depth 1 -b 15 hardware/infinity/interfaces
+# git clone https://github.com/ProjectInfinity-X/hardware_infinity_interfaces.git --depth 1 -b 15 hardware/infinity/interfaces
 # source patch
 # git clone https://github.com/everestos-mojito/frameworks_native.git --depth 1 -b 14 frameworks/native
 
