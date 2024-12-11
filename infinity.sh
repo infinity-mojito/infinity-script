@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Remove the local manifests directory if it exists (cleanup before repo initialization)
-rm -rf .repo/local_manifests/
-
 # remove device tree
 rm -rf device/xiaomi/mojito
 rm -rf device/xiaomi/sm6150-common
@@ -32,14 +29,6 @@ git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git--
 
 # cloning hardware tree
 git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
-
-# add missing source
-# git clone https://github.com/ProjectInfinity-X/hardware_infinity_interfaces.git --depth 1 -b 15 hardware/infinity/interfaces
-# source patch
-# git clone https://github.com/everestos-mojito/frameworks_native.git --depth 1 -b 14 frameworks/native
-
-# signing key for everestos
-# git clone https://github.com/mojito-keys/vendor_lineage_signing.git --depth 1 -b main vendor/lineage
 
 # Set up the build environment
 . build/envsetup.sh
