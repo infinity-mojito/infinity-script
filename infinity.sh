@@ -42,5 +42,5 @@ lunch infinity_mojito-user
 
 # Build the ROM (use mka bacon for a full build)
 mka bacon
-
-curl -T out/target/product/mojito/*.zip -u :2b0faa06-cdf4-45b2-bb25-34e443e133ce https://pixeldrain.com/api/file/
+cd out/target/product/mojito
+curl -T *.zip -u :2b0faa06-cdf4-45b2-bb25-34e443e133ce https://pixeldrain.com/api/file/
