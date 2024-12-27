@@ -16,7 +16,7 @@ repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/man
 /opt/crave/resync.sh
 
 # remove frameworks/native
-# rm -rf frameworks/native
+rm -rf frameworks/native
 rm -rf vendor/infinity
 
 # cloning device tree
@@ -33,7 +33,7 @@ git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git -
 # cloning hardware tree
 git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
 git clone https://github.com/infinity-mojito/vendor_infinity.git --depth 1 -b 15-QPR1 vendor/infinity
-# git clone https://github.com/infinity-mojito/frameworks_native.git --depth 1 -b 15-QPR1 frameworks/native
+git clone https://github.com/infinity-mojito/frameworks_native.git --depth 1 -b 15-QPR1 frameworks/native
 
 # Set up the build environment
 . build/envsetup.sh
