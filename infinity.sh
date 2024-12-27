@@ -32,7 +32,7 @@ git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git -
 # cloning hardware tree
 git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
 git clone https://github.com/infinity-mojito/vendor_infinity.git --depth 1 -b 15-QPR1 vendor/infinity
-git clone https://github.com/infinity-mojito/frameworks_native_infinity.git --depth 1 -b 15-QPR1 frameworks/native
+git clone https://github.com/infinity-mojito/frameworks_native.git --depth 1 -b 15-QPR1 frameworks/native
 
 # Set up the build environment
 . build/envsetup.sh
