@@ -38,6 +38,7 @@ git clone https://github.com/infinity-mojito/vendor_infinity.git --depth 1 -b 15
 # curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/d6679f5d8c2fb3a84ff539ebf5e919d3f20cc120.patch | git am
 # curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/2ce8829eb2cefc15ba92fb037f48aabaff2071d2.patch | git am
 # curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/c537194c7995e60a1cc996147febf0bdd958dd09.patch | git am
+# cd ../..
 
 # Set up the build environment
 . build/envsetup.sh
