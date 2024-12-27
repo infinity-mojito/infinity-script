@@ -7,6 +7,7 @@ rm -rf kernel/xiaomi/mojito
 rm -rf vendor/xiaomi/sm6150-common
 rm -rf hardware/xiaomi
 rm -rf vendor/infinity
+rm -rf frameworks/native
 
 # Initialize ROM manifest
 repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 15 -g default,-mips,-darwin,-notdefault
@@ -15,7 +16,7 @@ repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/man
 /opt/crave/resync.sh
 
 # remove frameworks/native
-rm -rf frameworks/native
+# rm -rf frameworks/native
 rm -rf vendor/infinity
 
 # cloning device tree
