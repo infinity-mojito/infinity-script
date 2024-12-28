@@ -15,6 +15,7 @@ repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/man
 
 # remove frameworks/native
 rm -rf hardware/xiaomi
+rm -rf vendor/infinity
 
 # cloning device tree
 git clone https://github.com/infinity-mojito/android_device_xiaomi_mojito.git --depth 1 -b 15 device/xiaomi/mojito
