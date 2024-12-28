@@ -30,13 +30,13 @@ git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git -
 # cloning hardware tree
 git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
 
+# clone vendor/infinity
+git clone https://github.com/infinity-mojito/vendor_infinity.git --depth 1 -b 15-QPR1 vendor/infinity
+
 cd frameworks/native
 curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/cbb6dd194451857e18211a9e3db0e57d5b8da71f.patch | git am
 curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/aa575c1d3c5a7d36e0003124a22030cccb93fdae.patch | git am
 curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/8af605927f53105ce62f7b14ee47b6ca50122364.patch | git am
-cd ../..
-cd vendor/infinity
-git fetch https://github.com/Pissel7Series/vendor_infinity.git p15 && git cherry-pick e7a4485
 cd ../..
 
 # Set up the build environment
