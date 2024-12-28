@@ -36,7 +36,7 @@ curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/aa575c1d3c
 curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/8af605927f53105ce62f7b14ee47b6ca50122364.patch | git am
 cd ../..
 cd vendor/infinity
-curl -s https://github.com/ProjectInfinity-X/vendor_infinity/commit/0b88e8d6cbd0a2d4198b2d34578117d6665999e5.patch |git am
+curl -s https://github.com/ProjectInfinity-X/vendor_infinity/commit/05e3ff3542f7f3287a801f22894d00b34955cc28.patch |git am
 cd ../..
 
 # Set up the build environment
