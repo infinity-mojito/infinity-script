@@ -6,6 +6,7 @@ rm -rf device/xiaomi/sm6150-common
 rm -rf kernel/xiaomi/mojito
 rm -rf vendor/xiaomi/sm6150-common
 rm -rf hardware/xiaomi
+rm -rf frameworks/native
 
 # Initialize ROM manifest
 repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 15 -g default,-mips,-darwin,-notdefault
@@ -16,7 +17,7 @@ repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/man
 # remove frameworks/native
 rm -rf hardware/xiaomi
 rm -rf vendor/infinity
-rm -rf frameworks/native
+# rm -rf frameworks/native
 
 # cloning device tree
 git clone https://github.com/infinity-mojito/android_device_xiaomi_mojito.git --depth 1 -b 15 device/xiaomi/mojito
@@ -36,11 +37,11 @@ git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git 
 git clone https://github.com/infinity-mojito/vendor_infinity.git --depth 1 -b 15-QPR1 vendor/infinity
 git clone https://github.com/infinity-cherry/frameworks_native.git --depth 1 -b 15-QPR1 frameworks/native
 
-# cd frameworks/native
-# curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/cbb6dd194451857e18211a9e3db0e57d5b8da71f.patch | git am
-# curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/aa575c1d3c5a7d36e0003124a22030cccb93fdae.patch | git am
-# curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/8af605927f53105ce62f7b14ee47b6ca50122364.patch | git am
-# cd ../..
+cd frameworks/native
+curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/cbb6dd194451857e18211a9e3db0e57d5b8da71f.patch | git am
+curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/aa575c1d3c5a7d36e0003124a22030cccb93fdae.patch | git am
+curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/8af605927f53105ce62f7b14ee47b6ca50122364.patch | git am
+cd ../..
 
 # Set up the build environment
 . build/envsetup.sh
