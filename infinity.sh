@@ -37,9 +37,9 @@ git clone https://github.com/infinity-mojito/vendor_infinity.git --depth 1 -b 15
 # git clone https://github.com/infinity-mojito/frameworks_native.git --depth 1 -b 15-QPR1 frameworks/native
 
 cd frameworks/native
-curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/d6679f5d8c2fb3a84ff539ebf5e919d3f20cc120.patch | git am
-curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/2ce8829eb2cefc15ba92fb037f48aabaff2071d2.patch | git am
-curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/c537194c7995e60a1cc996147febf0bdd958dd09.patch | git am
+curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/cbb6dd194451857e18211a9e3db0e57d5b8da71f.patch | git am
+curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/aa575c1d3c5a7d36e0003124a22030cccb93fdae.patch | git am
+curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/8af605927f53105ce62f7b14ee47b6ca50122364.patch | git am
 cd ../..
 
 # Set up the build environment
