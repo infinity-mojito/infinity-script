@@ -36,7 +36,7 @@ curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/aa575c1d3c
 curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/8af605927f53105ce62f7b14ee47b6ca50122364.patch | git am
 cd ../..
 cd vendor/infinity
-curl -s https://github.com/ProjectInfinity-X/vendor_infinity/commit/05e3ff3542f7f3287a801f22894d00b34955cc28.patch |git am
+git fetch https://github.com/Pissel7Series/vendor_infinity.git p15 && git cherry-pick e7a4485
 cd ../..
 
 # Set up the build environment
