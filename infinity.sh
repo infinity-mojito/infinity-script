@@ -17,7 +17,7 @@ repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/man
 
 # remove frameworks/native
 # rm -rf frameworks/native
-rm -rf vendor/infinity
+# rm -rf vendor/infinity
 rm -rf hardware/xiaomi
 
 # cloning device tree
