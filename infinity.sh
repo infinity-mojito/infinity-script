@@ -35,7 +35,7 @@ git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git 
 
 # clone vendor/infinity
 git clone https://github.com/infinity-mojito/vendor_infinity.git --depth 1 -b 15-QPR1 vendor/infinity
-git clone https://github.com/infinity-cherry/frameworks_native.git --depth 1 -b 15-QPR1 frameworks/native
+git clone https://github.com/infinity-mojito/frameworks_native.git --depth 1 -b 15 frameworks/native
 
 cd frameworks/native
 curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/cbb6dd194451857e18211a9e3db0e57d5b8da71f.patch | git am
