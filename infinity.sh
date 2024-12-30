@@ -37,11 +37,11 @@ git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git 
 git clone https://github.com/infinity-mojito/vendor_infinity.git --depth 1 -b 15-QPR1 vendor/infinity
 git clone https://github.com/infinity-mojito/frameworks_native.git --depth 1 -b 15 frameworks/native
 
-cd frameworks/native
-curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/cbb6dd194451857e18211a9e3db0e57d5b8da71f.patch | git am
-curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/aa575c1d3c5a7d36e0003124a22030cccb93fdae.patch | git am
-curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/8af605927f53105ce62f7b14ee47b6ca50122364.patch | git am
-cd ../..
+#cd frameworks/native
+#curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/cbb6dd194451857e18211a9e3db0e57d5b8da71f.patch | git am
+#curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/aa575c1d3c5a7d36e0003124a22030cccb93fdae.patch | git am
+#curl -s https://github.com/ProjectInfinity-X/frameworks_native/commit/8af605927f53105ce62f7b14ee47b6ca50122364.patch | git am
+#cd ../..
 
 # Set up the build environment
 . build/envsetup.sh
