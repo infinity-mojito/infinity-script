@@ -28,6 +28,10 @@ git clone https://github.com/ProjectEverest-Devices/android_kernel_xiaomi_mojito
 # cloning vendor tree
 git clone https://gitlab.com/romgharti/android_vendor_xiaomi_mojito.git --depth 1 -b 15 vendor/xiaomi/mojito
 git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git --depth 1 -b 15 vendor/xiaomi/sm6150-common
+cd vendor/xiaomi/sm6150-common
+curl -s https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common/-/commit/1ba39c935d4d98771668a0e14a0be27d2fa09753.patch | git am
+curl -s https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common/-/commit/38268ef97a0350d97f59112bb6121c4beaa72fb6.patch | git am
+cd ../../..
 
 # cloning hardware tree
 git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
