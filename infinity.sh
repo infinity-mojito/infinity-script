@@ -50,4 +50,4 @@ lunch infinity_mojito-user
 mka bacon
 
 cd out/target/product/mojito
-curl -T *.zip -u :2b0faa06-cdf4-45b2-bb25-34e443e133ce https://pixeldrain.com/api/file/
+curl -T Project_Infinity*.zip -u :2b0faa06-cdf4-45b2-bb25-34e443e133ce https://pixeldrain.com/api/file/
