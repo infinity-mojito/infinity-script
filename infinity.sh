@@ -34,7 +34,7 @@ git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git -
 git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
 
 # Lecia cam.
-git clone https://gitlab.com/romgharti/android_vendor_xiaomi_mojito-leicacamera -b bliss vendor/xiaomi/mojito-leicacamera
+#git clone https://gitlab.com/romgharti/android_vendor_xiaomi_mojito-leicacamera -b bliss vendor/xiaomi/mojito-leicacamera
 
 # clone vendor/infinity
 git clone https://github.com/infinity-mojito/vendor_infinity.git -b 15 vendor/infinity
