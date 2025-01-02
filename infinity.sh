@@ -43,6 +43,8 @@ git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git 
 # clone vendor/infinity
 git clone https://github.com/infinity-mojito/vendor_infinity.git -b 15 vendor/infinity
 git clone https://github.com/infinity-mojito/frameworks_native.git -b 15 frameworks/native
+rm -rf frameworks/av
+git clone https://github.com/infinity-mojito/frameworks_av.git -b 15 frameworks/av
 
 # Set up the build environment
 . build/envsetup.sh
