@@ -7,6 +7,7 @@ rm -rf kernel/xiaomi/mojito
 rm -rf vendor/xiaomi/sm6150-common
 rm -rf hardware/xiaomi
 rm -rf frameworks/native
+rm -rf frameworks/av
 
 # Initialize ROM manifest
 repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/manifest -b 15 -g default,-mips,-darwin,-notdefault
@@ -34,7 +35,7 @@ git clone https://gitlab.com/romgharti/android_vendor_xiaomi_sm6150-common.git -
 git clone https://github.com/ProjectEverest-Devices/android_hardware_xiaomi.git --depth 1 -b mojito hardware/xiaomi
 
 # Lecia cam.
-#git clone https://gitlab.com/romgharti/android_vendor_xiaomi_mojito-leicacamera -b bliss vendor/xiaomi/mojito-leicacamera
+# git clone https://gitlab.com/romgharti/android_vendor_xiaomi_mojito-leicacamera -b bliss vendor/xiaomi/mojito-leicacamera
 
 # clone vendor/infinity
 git clone https://github.com/infinity-mojito/vendor_infinity.git -b 15 vendor/infinity
