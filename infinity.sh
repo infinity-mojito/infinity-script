@@ -42,6 +42,9 @@ git clone https://github.com/infinity-mojito/vendor_infinity.git -b 15 vendor/in
 rm -rf frameworks/av
 git clone https://github.com/infinity-mojito/frameworks_av.git -b 15 frameworks/av
 
+git clone https://gitlab.com/dpenra/android_vendor_xiaomi_mojito-leicacamera.git --depth 1 -b main vendor/xiaomi/mojito-leicacamera
+git clone https://github.com/extra-application/vendor_xiaomi_miuiapps.git --depth 1 -b main vendor/xiaomi/miuiapps
+
 # Set up the build environment
 . build/envsetup.sh
 
