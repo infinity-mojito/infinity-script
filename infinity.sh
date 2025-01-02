@@ -6,6 +6,7 @@ rm -rf device/xiaomi/sm6150-common
 rm -rf kernel/xiaomi/mojito
 rm -rf vendor/xiaomi/sm6150-common
 rm -rf hardware/xiaomi
+
 rm -rf frameworks/native
 rm -rf frameworks/av
 rm -rf vendor/infinity
@@ -16,8 +17,14 @@ repo init --no-repo-verify --git-lfs -u https://github.com/ProjectInfinity-X/man
 # Sync the repo with force to ensure a clean sync
 /opt/crave/resync.sh
 
-# remove frameworks/native
+rm -rf device/xiaomi/mojito
+rm -rf device/xiaomi/sm6150-common
+rm -rf kernel/xiaomi/mojito
+rm -rf vendor/xiaomi/sm6150-common
 rm -rf hardware/xiaomi
+rm -rf vendor/xiaomi/mojito-leicacamera
+rm -rf vendor/xiaomi/miuiapps
+
 rm -rf vendor/infinity
 rm -rf frameworks/av
 
